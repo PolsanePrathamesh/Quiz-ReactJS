@@ -1,0 +1,49 @@
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.settings {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .settings {
+    width: 100%;
+  }
+}
+
+.settings__select {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  flex: 0.8;
+  justify-content: space-evenly;
+}
+.button-green {
+  background-color: #61f082;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(24, 41, 54);
+  outline: none;
+  border: none;
+}
+
+.button-green:hover {
+  background-color: #5de27c;
+  color: rgb(18, 30, 37);
+  cursor: pointer;
+}

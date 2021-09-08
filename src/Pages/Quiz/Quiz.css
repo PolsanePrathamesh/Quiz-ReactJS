@@ -1,0 +1,30 @@
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtitle {
+  font-size: 25px;
+  border-bottom: 1px solid #5ebdf5;
+}
+
+.name {
+  color: #292929;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.quizInfo {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin: 10px;
+}
+.score {
+  color: rgb(94, 189, 245);
+  font-weight: bold;
+  font-size: 2em;
+}
